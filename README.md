@@ -9,13 +9,12 @@
 
 
 ## How to run the code
-- git clone [https://github.com/AjayYadavAi/laravel-starter.git](https://github.com/NTPDN/laravel-upload-multiple.git)
+- git clone [https://github.com/NTPDN/laravel-upload-multiple.git]
 - cd laravel-upload-multiple
 - cp .env.example `.env`
 - open .env and update DB_DATABASE (database details)
 - run : `composer install`
 - run : `php artisan key:generate`
-- run : `php artisan migrate:fresh --seed`
 - run : `php artisan serve`
 
 - Best of luck 
