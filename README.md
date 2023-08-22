@@ -9,8 +9,8 @@
 
 
 ## How to run the code
-- git clone https://github.com/AjayYadavAi/laravel-starter.git
-- cd laravel-starter
+- git clone [https://github.com/AjayYadavAi/laravel-starter.git](https://github.com/NTPDN/laravel-upload-multiple.git)
+- cd laravel-upload-multiple
 - cp .env.example `.env`
 - open .env and update DB_DATABASE (database details)
 - run : `composer install`
