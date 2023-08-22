@@ -17,6 +17,5 @@
 - run : `php artisan key:generate`
 - run : `php artisan serve`
 
-- Best of luck 
 
 
