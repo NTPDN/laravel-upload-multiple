@@ -6,12 +6,33 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+# Admin Login page
+
+![alt text](https://github.com/AjayYadavAi/laravel-starter/blob/main/admin-login.png?raw=true)
+
+# Admin Dashboard page
+
+![alt text](https://github.com/AjayYadavAi/laravel-starter/blob/main/admin-dashboard.png?raw=true)
+
+
 ## How to run the code
 - git clone https://github.com/AjayYadavAi/laravel-starter.git
 - cd laravel-starter
 - cp .env.example `.env`
+- open .env and update DB_DATABASE (database details)
 - run : `composer install`
 - run : `php artisan key:generate`
+- run : `php artisan migrate:fresh --seed`
 - run : `php artisan serve`
 
 - Best of luck 
+
+
+## Credentials
+- #### Admin
+- email: admin@admin.com
+- password : password
+- #### Writer
+- email: writer@writer.com
+- password: password
